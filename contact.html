@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="refresh" content="30">
         <title> Jasmine's Webpage</title>
-        <link rel="stylesheet" href="stylesheet.css" />
+        <link rel="stylesheet" href="css/style.css" />
     </head>
 <body>
     <header>
@@ -25,15 +25,27 @@
     <main class="main-section">
         <section>
             <div class="contact-container">
+                <h2>Contact</h2>
+                <form class="contact-form">
+                    <label>First name:</label>
+                    <input type="text" name="first name" placeholder="Your name..." required/>
+                    <label>Last name:</label>
+                    <input type="text" name="lastname" placeholder="Your last name..." required/>
+                    <label>Email:</label>
+                    <input type="text" name="email" placeholder="Your email..." required/>
+                    <label>Message:</label>
+                    <textarea name="message" placeholder="Write something..."required></textarea>
 
+                    <input type="submit" value="send">
+                </form>
             </div>
-        </section>
+        </section> 
     </main>
 
     <footer class="footer-section">
-        <section>
-            
-        </section>
+        <div class="footer-border">
+            Jasmine Rutherford 2025
+        </div>
     </footer>
 
 </body>
